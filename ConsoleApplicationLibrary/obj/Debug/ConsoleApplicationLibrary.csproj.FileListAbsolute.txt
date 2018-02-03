@@ -1,0 +1,6 @@
+D:\Программирование\EPAM2018\Задания\MyLibraries\ConsoleApplicationLibrary\bin\Debug\ConsoleApplicationLibrary.dll
+D:\Программирование\EPAM2018\Задания\MyLibraries\ConsoleApplicationLibrary\bin\Debug\ConsoleApplicationLibrary.pdb
+D:\Программирование\EPAM2018\Задания\MyLibraries\ConsoleApplicationLibrary\obj\Debug\ConsoleApplicationLibrary.csproj.CoreCompileInputs.cache
+D:\Программирование\EPAM2018\Задания\MyLibraries\ConsoleApplicationLibrary\obj\Debug\ConsoleApplicationLibrary.dll
+D:\Программирование\EPAM2018\Задания\MyLibraries\ConsoleApplicationLibrary\obj\Debug\ConsoleApplicationLibrary.pdb
+D:\Программирование\EPAM2018\Задания\MyLibraries\ConsoleApplicationLibrary\obj\Debug\ConsoleApplicationLibrary.csprojResolveAssemblyReference.cache
