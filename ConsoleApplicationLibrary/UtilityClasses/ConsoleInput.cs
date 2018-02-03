@@ -59,10 +59,7 @@ namespace ConsoleApplicationLibrary.UtilityClasses
                 if (int.TryParse(Console.ReadLine(), out number))
                 {
                     return number;
-                    int dfdf;
-                    int fdf;
-                    int iifdfjef;
-
+                 
                 }
                 else
                 {
