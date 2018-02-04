@@ -59,7 +59,7 @@ namespace ConsoleApplicationLibrary.UtilityClasses
                 if (int.TryParse(Console.ReadLine(), out number))
                 {
                     return number;
-                 
+
                 }
                 else
                 {
@@ -69,7 +69,6 @@ namespace ConsoleApplicationLibrary.UtilityClasses
                 }
             }
         }
-
 
 
 
