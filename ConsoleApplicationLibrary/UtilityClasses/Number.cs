@@ -19,13 +19,15 @@ namespace ConsoleApplicationLibrary.UtilityClasses
         /// <returns>Возвращает true если число простое</returns>
         public static bool IsPrime(int number)
         {
+            // простыми могут быть только положительные числа
             if (IsPositive(number))
             {
-
-                if (number == 1)
+                if (number == 1)//единица не является простым числом
                 {
                     return false;
                 }
+                //Делим входное число на числа из интервала от 2 до входного числа.
+                //Если входное число без остатка делится на любое число кроме самого себя, возвращаем false
                 for (int i = 2; i < number; i++)
                 {
                     if (number % i == 0)

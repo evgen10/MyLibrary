@@ -75,7 +75,7 @@ namespace ConsoleApplicationLibrary.UtilityClasses
         /// <summary>
         /// Метод обеспечивает верный ввод вещественного положительного числа
         /// </summary>
-        /// <returns>Целое число</returns>
+        /// <returns>Вещественное положительное число</returns>
         public static double EnterPositiveRealNumber()
         {
             while (true)
@@ -94,6 +94,34 @@ namespace ConsoleApplicationLibrary.UtilityClasses
                         Console.WriteLine("Вы ввели отрицательное число: ");
                         Console.ResetColor();
                     }
+
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Неверные данные");
+                    Console.ResetColor();
+                }
+            }
+        }
+
+
+
+
+        /// <summary>
+        /// Метод обеспечивает верный ввод вещественного числа
+        /// </summary>
+        /// <returns>Вещественное число</returns>
+        public static double EnterRealNumber()
+        {
+            while (true)
+            {
+                double number;
+                Console.Write("Введите число: ");
+                if (double.TryParse(Console.ReadLine(), out number))
+                {                 
+                    
+                        return number;                                 
 
                 }
                 else
