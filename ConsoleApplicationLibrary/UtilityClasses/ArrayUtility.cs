@@ -49,5 +49,40 @@ namespace ConsoleApplicationLibrary.UtilityClasses
             return array;
         }
 
+
+        public static int[,] EnterIntenger2DArray(int sizeFirstD, int sizeSecondD)
+        {
+            int[,] array2D = new int[sizeFirstD, sizeSecondD];
+
+            for (int i = 0; i < sizeFirstD; i++)
+            {
+                for (int j = 0; j < sizeSecondD; j++)
+                {
+                    array2D[i, j] = ConsoleInput.EnterIntengerNumber();
+                }
+            }
+
+            return array2D;
+        }
+
+        public static int[,] FillRandomInt2dArray(int sizeFirsD, int sizeSecondD, int leftLimit, int rightLimit)
+        {
+            Random random = new Random();
+            int[,] array2D = new int[sizeFirsD, sizeSecondD];
+
+            for (int i = 0; i < sizeFirsD; i++)
+            {
+                for (int j = 0; j < sizeSecondD; j++)
+                {
+                    array2D[i, j] = random.Next(leftLimit, rightLimit);
+                }
+            }
+
+            return array2D;
+
+        }
+
+
+
     }
 }
